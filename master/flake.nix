@@ -9,7 +9,7 @@
   
   inputs.src-cppstl-master.flake = false;
   inputs.src-cppstl-master.owner = "BigEpsilon";
-  inputs.src-cppstl-master.ref   = "refs/heads/master";
+  inputs.src-cppstl-master.ref   = "master";
   inputs.src-cppstl-master.repo  = "nim-cppstl";
   inputs.src-cppstl-master.type  = "github";
   
