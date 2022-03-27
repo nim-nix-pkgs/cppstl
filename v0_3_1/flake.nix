@@ -11,6 +11,7 @@
   inputs.src-cppstl-v0_3_1.ref   = "refs/tags/v0.3.1";
   inputs.src-cppstl-v0_3_1.owner = "BigEpsilon";
   inputs.src-cppstl-v0_3_1.repo  = "nim-cppstl";
+  inputs.src-cppstl-v0_3_1.dir   = "";
   inputs.src-cppstl-v0_3_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

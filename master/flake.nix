@@ -11,6 +11,7 @@
   inputs.src-cppstl-master.ref   = "refs/heads/master";
   inputs.src-cppstl-master.owner = "BigEpsilon";
   inputs.src-cppstl-master.repo  = "nim-cppstl";
+  inputs.src-cppstl-master.dir   = "";
   inputs.src-cppstl-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
